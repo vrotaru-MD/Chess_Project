@@ -1,0 +1,15 @@
+.light-tile {
+    -fx-background-color: rgb(255, 199, 148);
+}
+
+.dark-tile {
+    -fx-background-color: rgb(203, 128, 63);
+}
+
+.selectable-tile {
+    -fx-background-color: rgb(100, 230, 100);
+}
+
+.selected-tile {
+    -fx-background-color: rgb(100, 100, 230);
+}

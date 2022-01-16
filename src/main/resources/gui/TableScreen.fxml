@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.TableScreenController">
+<children>
+    <AnchorPane prefHeight="441.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+        <children>
+            <Button layoutX="405.0" layoutY="15.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="27.0" prefWidth="161.0" text="Quit game" />
+            <GridPane fx:id="gridPane" layoutX="100.0" layoutY="147.0" prefHeight="394.0" prefWidth="400.0" stylesheets="gui/TableScreen.css">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+            <Text fx:id="turnLabel" layoutX="33.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turn:" wrappingWidth="33.55810546875" />
+            <Button fx:id="undoButton" layoutX="33.0" layoutY="66.0" mnemonicParsing="false" onAction="#undo" text="Undo" />
+            <Pane fx:id="turnPane" layoutX="67.0" layoutY="15.0" prefHeight="27.0" prefWidth="147.0" style="-fx-background-color: white;">
+               <children>
+                  <Text fx:id="turn" layoutX="6.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+               </children>
+            </Pane>
+            <Button layoutX="405.0" layoutY="66.0" mnemonicParsing="false" onAction="#restartGame" prefHeight="27.0" prefWidth="161.0" text="Restart game" />
+            <Text fx:id="check" fill="#fc7100" layoutX="100.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="a">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+        </children>
+    </AnchorPane>
+</children>
+</VBox>

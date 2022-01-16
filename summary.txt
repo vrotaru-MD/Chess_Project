@@ -1,0 +1,36 @@
+Team 75 - Chess Game
+
+
+DESCRIPTION
+
+This project consists in a simple Player vs Player Java Chess application, using JavaFX for the GUI. It implements all the
+basic rules of Chess, and shows the user all the possible moves for any of the pieces. It keeps a history of the game's state,
+allowing users to undo their actions. The game is over once a king is in check and there are no possible moves that will allow
+it to exit this state. There is no time limit for players to make a move.
+
+
+GITHUB REPOSITORY
+
+https://github.com/UPenn-CIT599/final-project-team-75-chess-game
+
+
+AUTHORS
+
+- Andrés Mechali  - amechali@seas.upenn.edu
+- Viorel Rotaru - vrotaru@seas.upenn.edu
+
+
+WORK BREAKDOWN
+
+- Viorel Rotaru was responsible for writing the game engine. This includes coding most game classes and logic related to how
+pieces move and interact with the board and between each other. An example of this is how the pieces get their possible moves
+and how the check and castling logic is implemented.
+
+- Andres Mechali designed and implemented the GUI using JavaFX, which handles the user input and the logic for interacting
+with the game. This includes the different buttons on all the game screens, the selection of pieces and the visualization of
+the game's state, among other things.
+
+- Both of us collaborated in the first design on the structure and logic of the whole application, and on the final
+integration of the UI with the game engine. We also designed the tests and collaborated with each other reviewing every commit
+before merging it to the master branch.
+

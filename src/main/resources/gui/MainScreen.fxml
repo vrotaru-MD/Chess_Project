@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+
+<VBox prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.MainScreenController">
+<children>
+    <AnchorPane prefHeight="441.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+        <children>
+            <Label layoutX="222.0" layoutY="113.0" text="Player 1" />
+            <Label layoutX="222.0" layoutY="175.0" text="Player 2" />
+            <TextField fx:id="playerOne" layoutX="220.0" layoutY="138.0" />
+            <TextField fx:id="playerTwo" layoutX="220.0" layoutY="199.0" />
+            <Button layoutX="220.0" layoutY="250.0" mnemonicParsing="false" onAction="#startGame" prefHeight="27.0" prefWidth="161.0" text="Start game" />
+            <Text fx:id="errorMessage" fill="RED" layoutX="220.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="error-message" wrappingWidth="161.0" />
+        </children>
+    </AnchorPane>
+</children>
+</VBox>
